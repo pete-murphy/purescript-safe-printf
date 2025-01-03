@@ -1,0 +1,20 @@
+package:
+  dependencies:
+    - console
+    - effect
+    - prelude
+    - typelevel-prelude
+  name: safe-printf
+  test:
+    dependencies:
+      - assert
+      - console
+      - effect
+      - prelude
+      - psci-support
+      - typelevel-prelude
+    main: Test.Main
+workspace:
+  extra_packages: {}
+  package_set:
+    registry: 47.10.0
